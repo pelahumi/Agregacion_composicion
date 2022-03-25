@@ -3,4 +3,7 @@ class Edificio():
         self.nombre = nombre
         self.ubicacion = ubicacion
         self.propietario = "YooHoo"
-        
+
+    def __del__(self):
+        print("Se ha destruido el edificio {}".format(self.nombre))
+
