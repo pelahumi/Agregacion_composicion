@@ -1,8 +1,8 @@
 class NuevaYork():
 
-    def __init__(self, edificios):
-        self.edificios = []
-        self.edificios = []
+    def __init__(self):
+        self.edificios = [Edificios(nombre) for nombre in ["Martin", "Salin"]]
+        self.edificios = [Empleados(nombre) for nombre in ["A", "B"]]
 
 class Empresa():
 
