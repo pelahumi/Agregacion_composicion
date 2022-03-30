@@ -47,6 +47,7 @@ class Empleados():
 ```
 
 Diagrama UML:
+
 ![UML](https://github.com/pelahumi/Agregacion_composicion/blob/main/UML/Dia%20del%20mañana.png)
 
 ## YinYang
@@ -62,6 +63,7 @@ class Yang:
 ```
 
 Diagrama UML:
+
 ![UML](https://github.com/pelahumi/Agregacion_composicion/blob/main/UML/YinYang.png)
 
 ## Alternativa
