@@ -47,7 +47,7 @@ class Empleados():
 ```
 
 Diagrama UML:
-![UML](https://github.com/pelahumi/Agregacion_composicion/blob/main/UML/Dia%20del%20mañana.jpg)
+![UML](https://github.com/pelahumi/Agregacion_composicion/blob/main/UML/Dia%20del%20mañana.png)
 
 ## YinYang
 ```python3
