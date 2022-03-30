@@ -1,8 +1,8 @@
 class NuevaYork():
 
     def __init__(self):
-        self.edificios = [Edificios(nombre) for nombre in ["Martin", "Salin"]]
-        self.edificios = [Empleados(nombre) for nombre in ["A", "B"]]
+        self.edificios = [Edificios(nombre) for nombre in ["A", "B"]]
+        self.edificios = [Empleados(nombre) for nombre in ["Martin", "Salin"]]
 
     def __del__(self):
         print("Nueva York fue destruido")
@@ -10,8 +10,8 @@ class NuevaYork():
 class LosAngeles():
 
     def __init__(self):
-        self.edificios = [Edificios(nombre) for nombre in ["Xing"]]
-        self.edificios = [Empleados(nombre) for nombre in ["C"]]
+        self.edificios = [Edificios(nombre) for nombre in ["C"]]
+        self.edificios = [Empleados(nombre) for nombre in [["Xing"]]]
 
     def __del__(self):
         print("Los Ángeles fue destruido")
@@ -30,7 +30,7 @@ class Edificios():
         self.nombre = nombre
     
     def __del__(self):
-        print("Los edificios {} fueron destruidos").format(self.nombre)
+        print("Los edificios {} fueron destruidos".format(self.nombre))
 
 class Empleados():
 
@@ -38,4 +38,5 @@ class Empleados():
         self.nombre = nombre
     
     def __del__(self):
-        print("{} ha muerto").format(self.nombre)
+        print("{} ha muerto".format(self.nombre))
+
