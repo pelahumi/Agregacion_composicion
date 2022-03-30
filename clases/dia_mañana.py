@@ -24,7 +24,6 @@ class Empresa():
     def __del__(self):
         print("La empresa se ha destruido")
     
-
 class Edificios():
 
     def __init__(self, nombre):
