@@ -93,6 +93,6 @@ class Casa(InterfazCristal):
 ```
 
 Diagrama UML:
-![UML](https://github.com/pelahumi/Agregacion_composicion/blob/main/UML/Dia%20del%20mañana.png)
+![UML](https://github.com/pelahumi/Agregacion_composicion/blob/main/UML/Alternativa.png)
 
 
