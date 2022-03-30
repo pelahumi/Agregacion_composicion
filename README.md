@@ -46,6 +46,9 @@ class Empleados():
         print("{} ha muerto".format(self.nombre))
 ```
 
+Diagrama UML:
+![UML](https://github.com/pelahumi/Agregacion_composicion/blob/main/UML/Dia%20del%20mañana.png)
+
 ## YinYang
 ```python3
 class Yin: 
@@ -57,6 +60,9 @@ class Yang:
         print("?") #Metemos el print dentro de la función en la linea anterior de Yang destruido
         print("Yang destruido") 
 ```
+
+Diagrama UML:
+![UML](https://github.com/pelahumi/Agregacion_composicion/blob/main/UML/Dia%20del%20mañana.png)
 
 ## Alternativa
 ```python3
@@ -84,5 +90,9 @@ class Casa(InterfazCristal):
     
     def superficie_acristalada(self):
         return sum(self.paredes.superficie)
+```
+
+Diagrama UML:
+![UML](https://github.com/pelahumi/Agregacion_composicion/blob/main/UML/Dia%20del%20mañana.png)
 
 
