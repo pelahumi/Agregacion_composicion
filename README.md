@@ -2,7 +2,7 @@
 La dirección del repositorio es la siguiente: [GitHub](https://github.com/pelahumi/Agregacion_composicion)
 
 ## Día del mañana
-´´´python3
+```python3
 class NuevaYork():
 
     def __init__(self):
@@ -44,7 +44,7 @@ class Empleados():
     
     def __del__(self):
         print("{} ha muerto".format(self.nombre))
-
+```
 
 ## YinYang
 ´´´python3
