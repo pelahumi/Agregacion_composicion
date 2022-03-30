@@ -7,9 +7,6 @@ class Yang:
         print("?") #Metemos el print dentro de la función en la linea anterior de Yang destruido
         print("Yang destruido") 
  
-yin = Yin()
-yang = Yang() 
 
-del(yang) 
 
 
