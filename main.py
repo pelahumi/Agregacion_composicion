@@ -32,5 +32,5 @@ if __name__ == "__main__":
         ventana_oeste = InterfazCristal(pared_oeste, 1) 
         ventana_sur = InterfazCristal(pared_sur, 2) 
         ventana_este = InterfazCristal(pared_este, 1) 
-        casa = Casa([pared_norte, pared_oeste, pared_sur, pared_este]) 
+        casa = Casa(4, [pared_norte, pared_oeste, pared_sur, pared_este], [ventana_norte, ventana_este, ventana_oeste,ventana_sur]) 
         print(casa.superficie_acristalada()) 
